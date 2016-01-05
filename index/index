@@ -1,0 +1,26 @@
+# -
+<!DOCTYPE html>
+<html>
+<head>
+    <title>密码强度</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="passwordStrength.css"/>
+    <script src="jquery-1.7.2.min.js"></script>
+    <script src="passwordStrength.js"></script>
+</head>
+<body>
+<form action="">
+    <div>
+        <input type="text" id="pwd"/>
+    </div>
+</form>
+ 
+<script>
+$(function(){
+    $("#pwd").passwordStrength({
+        txtMode:1
+    });
+})
+</script>
+</body>
+</html>
